@@ -12,7 +12,7 @@ function App() {
       LocalStorageEventTarget.removeEventListener("clearAuthen", clearAuthenFromProvider);
     };
   }, [clearAuthenFromProvider]);
-  return <>{routeElements}</>;
+  return <main>{routeElements}</main>;
 }
 
 export default App;
